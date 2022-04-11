@@ -1,0 +1,18 @@
+html {
+    scroll-behavior: auto !important;
+}
+
+nav{
+    font-family: 'Lobster', sans-serif;
+}
+
+.logo{
+    width: 2.5rem;
+}
+
+#Quienes-somos{
+    font-family: "Raleway";
+    font-weight: 100;
+}
+
+
