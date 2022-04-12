@@ -85,10 +85,8 @@
 
   <section id="Quienes-Somos" >
     <div class="d-none d-sm-flex flex-column justify-content-center align-items-center bg-dark py-4 text-white">
-      <h3 class="text-white mb-4">
-        ¿QUIENES SOMOS?
-      </h3>
-
+      <!--aquí tengo un tooltip con boostrap-->
+      <h3 id="mytooltip" data-toggle="tooltip" title="Da click aquí para conocer más de nosotros!">¿QUIENES SOMOS?</h3>
     <div class="container row pt-3">
       <div class="col-sm m-2">
         <div class="bg-info d-flex justify-content-center p-1 mb-2">
@@ -129,7 +127,8 @@
 <!--section destacados-->
   <section id="Destacados">
     <div class="container-fluid bg-dark py-4 text-white">
-      <h3 class="mb-4 text-center">DESTACADOS</h3>
+    <!--aquí tengo un tooltip con boostrap-->
+      <h3 id="mytooltip" data-toggle="tooltip" title="Conoce más secciones destacadas" class="mb-4 text-center">DESTACADOS</h3>
       <div class="container pt-3">
         <div class="row">
           <div class="col-md-6 col-lg-3 mb-4">
@@ -185,8 +184,9 @@
   </section>
 <!--seccion contacto formulario-->
   <section id="Contacto">
-    <div class="container-fluid d-flex flex-column justify-content-center align-items-center bg-dark py-5">
-        <h3 class="text-white text-center pt-5">CONTACTO</h3>
+    <div class="container-fluid d-flex flex-column justify-content-center align-items-center bg-dark py-3">
+            <!--aquí tengo un tooltip con boostrap-->
+        <h3 id="mytooltip" data-toggle="tooltip" title="Pincha aquí para tus consultas"class="text-white text-center pt-3">CONTACTO</h3>
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -204,7 +204,8 @@
                     <label for="exampleInputPassword1" class="form-label">Mensaje</label>
                     <textarea class="form-control my-2 ancho-formulario" id="exampleFormControlTextarea1" rows="7"></textarea>
                   </div>
-              <button type="submit" class="btn btn-info text-white my-2" data-bs-toggle="tooltip" data-bs-placement="right">Enviar</button>
+                  <!--Aquí deje una alerta con javascript al dar click en enviar-->
+              <button id="plazo" type="submit" class="btn btn-info text-white my-2" data-bs-toggle="tooltip" data-bs-placement="right">Enviar</button>
               </form>
             </div>
           </div>
