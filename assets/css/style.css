@@ -2,17 +2,24 @@ html {
     scroll-behavior: auto !important;
 }
 
-nav{
+.navbar{
     font-family: 'Lobster', sans-serif;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    font-size: 25px;
+    font-weight: 700;
 }
 
 .logo{
     width: 2.5rem;
 }
 
-#Quienes-somos{
+section{
     font-family: "Raleway";
     font-weight: 100;
 }
+
+
 
 
