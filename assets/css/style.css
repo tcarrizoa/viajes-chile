@@ -15,11 +15,15 @@ html {
     width: 2.5rem;
 }
 
-section{
+section form{
     font-family: "Raleway";
     font-weight: 100;
 }
 
-
+footer h3{
+    font-family: 'Lobster', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
 
 
