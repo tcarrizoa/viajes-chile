@@ -3,6 +3,7 @@ Contenigo página Viajes Chile - Prueba M1
 
 
 La página debe contener las siguientes secciones:
+
 ● Una barra de navegación fija en la parte superior de la pantalla, con el logo y links a diferentes secciones de la página, haciendo un smooth scroll.
 
 ● Un carousel que muestre las imágenes destacadas del sitio.
